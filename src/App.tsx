@@ -9,6 +9,7 @@ import EquityModel from "./components/EquityModel";
 import Team from "./components/Team";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
+import founderPhoto from './assets/shahzad-hussain.jpeg';
 
 export default function App() {
   return (
@@ -27,7 +28,7 @@ export default function App() {
         <section id="founder" className="relative py-24 sm:py-32 overflow-hidden">
           <div className="absolute inset-0 pointer-events-none">
             <div
-              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[320px] rounded-full blur-[120px]"
+              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-80 rounded-full blur-[120px]"
               style={{ background: "rgba(14,165,233,0.08)" }}
             />
           </div>
@@ -35,7 +36,7 @@ export default function App() {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div className="rounded-3xl border border-white/10 overflow-hidden bg-white/5">
                 <img
-                  src="/shahzad hussain.jpeg"
+                  src={founderPhoto}
                   alt="Shahzad Hussain, Founder"
                   className="w-full h-full object-cover max-h-[540px]"
                 />

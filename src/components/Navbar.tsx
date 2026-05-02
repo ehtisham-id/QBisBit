@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import qbisbitLogo from '../assets/qbisbit-logo.png';
 
 const GOOGLE_FORM_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSeLoE-1-H10FFcfmNIWgMKAB5t0dYgcnq4QMv0GtjzcEu1pkg/viewform';
@@ -38,7 +39,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <a href="#" className="flex items-center gap-2.5 group">
-              <img src="/Q_BISBIT LOGO.png" alt="Q BISBIT logo" className="w-9 h-9 rounded-lg object-cover shadow-lg shadow-sky-500/30" />
+              <img src={qbisbitLogo} alt="Q BISBIT logo" className="w-9 h-9 rounded-lg object-cover shadow-lg shadow-sky-500/30" />
               <span className="font-bold text-white text-base sm:text-lg tracking-tight">
                 Q BISBIT
               </span>

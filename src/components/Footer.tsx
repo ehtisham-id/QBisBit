@@ -1,3 +1,5 @@
+import qbisbitLogo from '../assets/qbisbit-logo.png';
+
 export default function Footer() {
   return (
     <footer className="relative border-t py-12 sm:py-16" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
@@ -6,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="text-center md:text-left">
             <div className="flex items-center gap-2.5 justify-center md:justify-start mb-3">
-              <img src="/Q_BISBIT LOGO.png" alt="Q BISBIT logo" className="w-9 h-9 rounded-lg object-cover shadow-lg shadow-sky-500/30" />
+              <img src={qbisbitLogo} alt="Q BISBIT logo" className="w-9 h-9 rounded-lg object-cover shadow-lg shadow-sky-500/30" />
               <span className="font-bold text-white text-base tracking-tight">Q BISBIT</span>
             </div>
             <p className="text-sm text-gray-500 max-w-xs">

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown } from 'lucide-react';
+import qbisbitLogo from '../assets/qbisbit-logo.png';
 
 const GOOGLE_FORM_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSeLoE-1-H10FFcfmNIWgMKAB5t0dYgcnq4QMv0GtjzcEu1pkg/viewform';
@@ -45,7 +46,7 @@ export default function Hero() {
         {/* Main heading */}
         <FadeUp delay={0.1}>
           <div className="mb-6 flex justify-center">
-            <img src="/Q_BISBIT LOGO.png" alt="Q BISBIT logo" className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shadow-2xl shadow-sky-500/25" />
+            <img src={qbisbitLogo} alt="Q BISBIT logo" className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover shadow-2xl shadow-sky-500/25" />
           </div>
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight mb-6 leading-none">
             <span className="shimmer-text">Q BISBIT</span>
